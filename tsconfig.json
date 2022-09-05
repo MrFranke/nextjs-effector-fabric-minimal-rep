@@ -14,9 +14,11 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "baseUrl": ".",
     "paths": {
       "nextjs-effector": ["./nextjs-effector-lib"],
-      "nextjs-effector/*": ["./nextjs-effector-lib/*"]
+      "nextjs-effector/*": ["./nextjs-effector-lib/*"],
+      "@shared/*": ["shared/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

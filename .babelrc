@@ -1,4 +1,4 @@
 {
   "presets": ["next/babel"],
-  "plugins": [["effector/babel-plugin", { "reactSsr": true, "factories": ["pageFactory"]  }]]
+  "plugins": [["effector/babel-plugin", { "reactSsr": true, "factories": ["@shared/factory/pageFactory"]  }]]
 }

@@ -2,9 +2,8 @@ import type { NextPage } from "next";
 import { sample } from "effector";
 import { useStore } from "effector-react";
 import { createGIP } from "../createGIP";
-import { pageFactory } from "../pageFactory";
-
-const { pageLoaded, $isFlag, setFlag } = pageFactory();
+import { pageLoaded, setFlag, $isFlag } from "@shared/pages/index.units";
+import { model } from "@shared/pages/units";
 
 sample({
   clock: pageLoaded,
@@ -14,7 +13,10 @@ sample({
 
 const Home: NextPage = () => {
   const flag = useStore($isFlag);
-  console.log("sid:", $isFlag.sid);
+
+  console.log("sid with exports:", $isFlag.sid);
+  console.log("sid without exports", model.$isFlag.sid);
+
   return <div>flag: {flag ? "(true)" : "(false)"}</div>;
 };
 
