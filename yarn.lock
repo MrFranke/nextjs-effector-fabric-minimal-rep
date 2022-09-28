@@ -484,10 +484,10 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
-effector-react@^22.1.6:
-  version "22.1.6"
-  resolved "https://registry.yarnpkg.com/effector-react/-/effector-react-22.1.6.tgz#51d68c23dc62aebf964da5e641a14831d7aa927d"
-  integrity sha512-1+kjtjX62tm3upJBQvsFGm6Sp+5po8j1OEWmkllSw4e8Kg1XampD5gqSRlGt9s9iJxtNl1oZoDiTxKyF5EoKtw==
+effector-react@^22.3.1:
+  version "22.3.1"
+  resolved "https://registry.yarnpkg.com/effector-react/-/effector-react-22.3.1.tgz#b6bd481b58cc8744c57680911675c73bac35c37f"
+  integrity sha512-SPiKmEzVqi9L6/Pv6pQe7aZRO12gtViePRdQpmX+FCBnsit9JD4T9HXoF5IhRQASldnZz2v/Vhr/eJ5ae2C55Q==
   dependencies:
     use-sync-external-store "^1.0.0"
 
